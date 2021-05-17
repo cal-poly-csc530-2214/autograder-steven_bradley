@@ -1,0 +1,8 @@
+int linexp(int x, int y){
+   return ??*x + ??*y + ??;
+}
+
+harness void main(int x, int y){
+   assert linexp(x,y) >= 2*x + y;
+   assert linexp(x,y) <= 2*x + y+2;
+}
